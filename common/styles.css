@@ -883,6 +883,8 @@ section {
 .bg-7 {  background: url(../images/slider_5_1920_600.jpg) no-repeat center;  background-size: cover; }
 
 .bg-8 {  background: url(../images/slider_6_1920_600.jpg) no-repeat center;  background-size: cover; }
+.bg-9 {  background: url(../images/site_banner_1.jpg) no-repeat center;  background-size: cover; }
+.bg-10 {  background: url(../images/site_banner_2.jpg) no-repeat center;  background-size: cover; }
 
 .bg-grad-layer-6:after { content: ''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: -1; opacity: .6;
         background: linear-gradient(to top, #000 0%, rgba(0, 0, 0, .4) 100%); }
