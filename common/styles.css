@@ -96,7 +96,9 @@ textarea:focus { outline-color: #EF0031; }
 
 .card i { font-size: 1.2em;}
 
-
+.row.row {
+        justify-content: center;
+}
 
 /* RESPONSIVE */
 
