@@ -240,24 +240,28 @@ function isExists(elem) {
         return false;
 }
 
-function initMap() {
-
-        // Create a map object, and include the MapTypeId to add
-        // to the map type control.
-
-        var uluru = {lat: 56.946285, lng: 24.105078};
-        var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 4,
-                center: uluru
-        });
-
-        var image = 'images/google-marker.png';
-        var marker = new google.maps.Marker({
-                position: uluru,
-                map: map,
-                icon: image
-        });
-        //Associate the styled map with the MapTypeId and set it to display.
-        map.mapTypes.set('styled_map', styledMapType);
-        map.setMapTypeId('styled_map');
-}
+$.ajax({
+        url: 'pizzahot.json',
+        dataType: 'json',
+        success: function(data) {
+           var items = [];
+ 
+           $.each(data, function(key, val) {
+ 
+             items.push('<li id="' + key + '">' + val + '</li>');    
+ 
+           });
+ 
+           $('<ul/>', {
+              'class': 'interest-list',
+              html: items.join('')
+           }).appendTo('body');
+ 
+        },
+       statusCode: {
+          404: function() {
+            alert('There was a problem with the server.  Try again soon!');
+          }
+        }
+     });
+      

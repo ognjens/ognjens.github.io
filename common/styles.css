@@ -7353,3 +7353,6 @@ ul.icon li a{ padding: 10px;  }
 }
 
 
+.footer img {
+        max-width: 100px;
+}
