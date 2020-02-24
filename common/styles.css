@@ -191,6 +191,7 @@ header ul.main-menu > li > a {
         height: 100%;
         line-height: 70px;
         padding: 0px 15px;
+        font-size: 18px;
 }
 
 /* SEARCH AREA */
@@ -422,6 +423,15 @@ section {
 .story-area {
         position: relative;
         background: #fff;
+}
+
+.story-area .heading {
+        margin-bottom: 35px;
+}
+
+.story-area p {
+        font-size: 18px;
+        font-weight: 700;
 }
 
 .story-bg {
@@ -769,7 +779,7 @@ section {
 
 /* BACKGROUND COLOR*/
 
-.bg-seller{ background: url(../images/sellers-1-1600x1600.jpg)  no-repeat; background-size: cover; position: relative; z-index: 1; }
+.bg-seller{ background: url(../images/menu-background-2.jpg)  no-repeat; background-size: cover; position: relative; z-index: 1; }
 
 .bg-seller:after{ content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: -1; background: rgba(0,0,0,.85); }
 
@@ -867,6 +877,15 @@ section {
         z-index: -1;
 }
 
+section.bg-10.h-900x.main-slider.pos-relative::before {
+        content: "1";
+        background: rgba(0,0,0,0.3);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 0;
+        top: 0;
+}
 
 .bg-1 { background: url(../images/slider_1_1920_1200.jpg) no-repeat center; background-size: cover; }
 
@@ -885,6 +904,8 @@ section {
 .bg-8 {  background: url(../images/slider_6_1920_600.jpg) no-repeat center;  background-size: cover; }
 .bg-9 {  background: url(../images/site_banner_1.jpg) no-repeat center;  background-size: cover; }
 .bg-10 {  background: url(../images/site_banner_2.jpg) no-repeat center;  background-size: cover; }
+.bg-11 {  background: url(../images/about-banner-left.png) no-repeat center;  background-size: 85%; }
+.bg-12 {  background: url(../images/about_banner_2.png) no-repeat center;  background-size: 85%; }
 
 .bg-grad-layer-6:after { content: ''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: -1; opacity: .6;
         background: linear-gradient(to top, #000 0%, rgba(0, 0, 0, .4) 100%); }
@@ -1638,6 +1659,7 @@ ul.icon li a{ padding: 10px;  }
 
 .h-100 {
         height: 100% !important;
+        position: relative;
 }
 
 .h-1-4 {

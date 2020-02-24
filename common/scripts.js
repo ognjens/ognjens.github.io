@@ -376,89 +376,94 @@ var jsonFile = {
                 }, {
                         "eng": " pelat, mocarela, šunka  ",
                         "name": "VESUVIO",
-                        "prices": ["340", "520", "710"]
+                        "prices": ["340", "520", "710"],
+                        "img": "VESUVIO.png"
                 }, {
                         "eng": " pelat, mocarela, šunka, pečurke, origano, masline",
                         "name": "CAPRICCIOSA",
-                        "prices": ["360", "530", "750"]
-                }, {
-                        "eng": " pelat, mocarela, ementaler, šunka, rukola ",
-                        "name": "DEZ",
-                        "prices": ["380", "570", "780"]
+                        "prices": ["360", "530", "750"],
+                        "img": "CAPRICCIOSA.png"
                 }, {
                         "eng": " neutralnapavlaka, mocarela, parmezan, šunka, paradajz, rukola",
                         "name": "BIANCO ROSSO",
-                        "prices": ["380", "580", "780"]
+                        "prices": ["380", "580", "780"],
+                        "img": "BIANCO-ROSSO.png"
                 }, {
-                        "eng": " pelat, mocarela, pančeta",
+                        "eng": " pelat, mocarela, pančeta, parmezan",
                         "name": "SICILIA",
-                        "prices": ["380", "580", "780"]
+                        "prices": ["380", "580", "780"],
+                        "img": "SICILIA.png"
                 }, {
                         "eng": " pelat, mocarela, pršuta ",
                         "name": "PALERMO",
-                        "prices": ["380", "580", "800"]
+                        "prices": ["380", "580", "800"],
+                        "img": "PALERMO.png"
                 }, {
-                        "eng": " pelat, mocarela, gorgonzola, pršuta, rukola, čeri-paradajz ",
+                        "eng": " pelat, mocarela, gorgonzola, pršuta, rukola, čeri-paradajz, parmezan",
                         "name": "PARIS",
                         "prices": ["460", "670", "880"]
                 }, {
                         "eng": " pelat, mocarela, pršuta, rukola, čeri-paradajz, ulje-pikante ",
                         "name": "NEW YORK",
-                        "prices": ["450", "650", "850"]
+                        "prices": ["450", "650", "850"],
+                        "img": "NEW-YORK.png"
                 }, {
-                        "eng": " pelat, mocarela, povrće ",
-                        "name": "VEGETARIJANA",
-                        "prices": ["370", "570", "770"]
+                        "eng": " pelat, mocarela, paprika, čeri, pečurke, rukola, crveni luk, masline",
+                        "name": "VEGETARIANA",
+                        "prices": ["370", "570", "770"],
+                        "img": "VEGETARIANA.png"
                 }, {
                         "eng": " pelat, mocarela, kulen, paprika ",
-                        "name": "DIAVOLA",
-                        "prices": ["390", "590", "800"]
+                        "name": "KULEN",
+                        "prices": ["390", "590", "800"],
+                        "img": "KULEN.png"
                 }, {
                         "eng": " pelat, mocarela, tuna,crveni luk ",
                         "name": "TUNA",
-                        "prices": ["390", "590", "760"]
-                }, {
-                        "eng": " pelat, mocarela, brie, rukola, paradajz ",
-                        "name": "TESLA",
-                        "prices": ["400", "600", "810"]
+                        "prices": ["390", "590", "760"],
+                        "img": "TUNA.png"
                 }, {
                         "eng": " neutralna pavlaka, pršuta, rukola, paradajz, parmezan ",
                         "name": "BIANCO PROSCUITO",
-                        "prices": ["450", "650", "850"]
+                        "prices": ["450", "650", "850"],
+                        "img": "BIANCO-PROSCUITO.png"
                 }, {
-                        "eng": " neutralna pavlaka, mocarela, parmezan, ementaler, gorgonzola ",
+                        "eng": " neutralna pavlaka, mocarela, parmezan, gorgonzola ",
                         "name": "QUATTRO FORMAGGI",
-                        "prices": ["400", "600", "810"]
-                }, {
-                        "eng": " pelat, mocarela, kobasica, kulen, luk, paprika, BBQ sos ",
-                        "name": "GRANDE",
-                        "prices": ["460", "670", "880"]
+                        "prices": ["400", "600", "810"],
+                        "img": "QUATTRO-FORMAGGI.png"
                 }, {
                         "eng": " neutralna pavlaka, mocarela, parmezan, dimljena piletina,kikiriki ",
                         "name": "DI POLLO",
-                        "prices": ["380", "580", "780"]
+                        "prices": ["380", "580", "780"],
+                        "img": "DI-POLLO.png"
                 }, {
-                        "eng": " pelat, mocarela, parmezan, piletina, peperoni, pančeta, luk, paprika, čili ",
+                        "eng": " pelat, mocarela, parmezan, piletina, kulen, pančeta, luk, paprika ",
                         "name": "DI POLLO PICANTE",
-                        "prices": ["460", "670", "880"]
+                        "prices": ["460", "670", "880"],
+                        "img": "DI-POLLO-PICANTE.png"
                 }, {
-                        "eng": " pelat, mocarela, šunka, kulen, pančeta, grilovano povrće ",
+                        "eng": " pelat, mocarela, šunka, kulen, pančeta, crveni luk, paprika ",
                         "name": "ROYAL",
-                        "prices": ["480", "680", "880"]
+                        "prices": ["480", "680", "880"],
+                        "img": "ROYAL.png"
                 }, {
-                        "eng": " pelat, mocarela, dimljena piletina, pančeta, pečurke, paradajz ",
+                        "eng": " pelat, mocarela, dimljena piletina, pančeta, pečurke, paradajz, parmezan",
                         "name": "ROMA",
-                        "prices": ["480", "680", "880"]
+                        "prices": ["480", "680", "880"],
+                        "img": "ROMA.png"
                 }, {
                         "eng": " pelat, mocarela, dimljena piletina, pesto genovese ",
                         "name": "DI POLLO PESTO",
-                        "prices": ["400", "600", "810"]
+                        "prices": ["400", "600", "810"],
+                        "img": "DI-POLLO-PESTO.png"
                 }, {
                         "eng": " pelat, mocarela, pršuta, šunka, govedja pršuta, pančeta ",
                         "name": "QUATTRO CARNE",
-                        "prices": ["440", "640", "840"]
+                        "prices": ["440", "640", "840"],
+                        "img": 'QUATTRO-CARNE.png'
                 }, {
-                        "eng": " pelat, mocarela, parmezan, pršuta, šunka, govedja pršuta, pančeta, peperoni, rukola ",
+                        "eng": " pelat, mocarela, parmezan, pršuta, šunka, govedja pršuta, pančeta, kulen, rukola ",
                         "name": "PIZZA HOT 7",
                         "prices": ["530", "730", "930"]
                 }, {
@@ -1847,32 +1852,34 @@ console.log(jsonFile.menu.pizza), 'menu';
 
 $.each(jsonFile.menu, function (key, val) {
         console.log(key, val);
-        var data = [];
-        var placeholder = `images/seller-2-200x200.png`;
-        if (key == 'pasta') {
-                placeholder = 'images/products/pasta_placeholder.png'
-        }
-        if (key == 'sandwitch') {
-                placeholder = 'images/products/sandwitch_placeholder.png'
-        }
-        if (key == 'salads') {
-                placeholder = 'images/products/salad_placeholder.png'
-        }
-        $.each(val, function (key, r) {
+        if (key !== 'salads') {
+                var data = [];
+                var placeholder = `images/seller-2-200x200.png`;
+                if (key == 'pasta') {
+                        placeholder = 'images/products/pasta_placeholder.png'
+                }
+                if (key == 'sandwitch') {
+                        placeholder = 'images/products/sandwitch_placeholder.png'
+                }
+                if (key == 'salads') {
+                        placeholder = 'images/products/salad_placeholder.png'
+                }
+                $.each(val, function (key, r) {
 
-                data += `<div class="col-lg-3 col-md-4  col-sm-6 ">
+                        data += `<div class="col-lg-3 col-md-4  col-sm-6 ">
                 <div class="center-text mb-30">
                         <div class="ïmg-200x mlr-auto pos-relative">
                                 ${r.new ? `<h6 class="ribbon-cont"><div class="ribbon primary"></div><b>NOVO</b></h6>` : ''}
                                 <img src="${r.img ? `./images/products/${r.img}` : placeholder}" alt="">
                         </div>
-                        <h4 class="mt-10">${r.name}</h4>
+                        <h4 class="mt-20">${r.name}</h4>
                         <h6 class="mt-10">${r.eng}</h6>
                         <h5 class="mt-5">
                                 <b>${r.prices ? r.prices : ''} rsd</b>
                         </h5>
                 </div>
         </div>`
-        });
-        $(data).appendTo(`#${key} .row`);
+                });
+                $(data).appendTo(`#${key} .row`);
+        }
 });
