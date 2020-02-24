@@ -1886,7 +1886,10 @@ $.each(jsonFile.menu, function (key, val) {
                 }
                 $.each(val, function (key, r) {
 
-                        data += `<div class="col-lg-3 col-md-4  col-sm-6 ">
+                        data += `<div class="col-lg-3 col-md-4  col-sm-6 menu-item-wrapper">
+                        <div class="order-popup"> 
+                                <a target="_blank" href="https://www.donesi.com/dostava/zemun/pizza-hot-7" class="btn-primaryc plr-25"><b>NARUČI</b></a>
+                        </div> 
                 <div class="center-text mb-30">
                         <div class="ïmg-200x mlr-auto pos-relative">
                                 ${r.new ? `<h6 class="ribbon-cont"><div class="ribbon primary"></div><b>NOVO</b></h6>` : ''}
