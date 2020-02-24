@@ -1892,8 +1892,6 @@ var jsonFile = {
 }
 
 
-console.log(jsonFile.menu.pizza), 'menu';
-
 
 // $.each(jsonFile.menu, function (key, val) {
 //         console.log(key, val);
