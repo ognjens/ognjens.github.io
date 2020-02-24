@@ -7382,3 +7382,11 @@ ul.icon li a{ padding: 10px;  }
 .footer img {
         max-width: 100px;
 }
+
+.footer a i:before {
+        font-size: 32px;
+}
+
+.capitalise {
+        text-transform: capitalize;
+}

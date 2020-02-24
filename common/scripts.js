@@ -358,167 +358,187 @@ var jsonFile = {
                         "name": "DI POLLO PESTO",
                         "prices": ["500"]
                 }, {
-                        "eng": " pelat, parmezan, 6 vrsta povrća (pečurke, paprika, luk, paradajz, čeri, rukola) ",
+                        "eng": " pelat, mocarela,crevni luk, paprika, pečurke, čeri paradajz, rukola, parmezan",
                         "name": "VEGETARIAN",
-                        "prices": ["450"]
+                        "prices": ["450"],
+                        "new": true
+                }, {
+                        "eng": "nutella, lešnik",
+                        "name": "NUTALLA",
+                        "prices": ["500"],
+                        "new": true
                 }],
                 "pizza": [{
                         "eng": " pelat, mocarela ",
                         "name": "MARGHERITA",
-                        "prices": ["300", "480", "670"],
-                        "new": true,
+                        "prices": ["300", "530", "720"],
                         "img": "MARGHERITA.png"
                 }, {
                         "eng": " pelat, mocarela, pečurke ",
                         "name": "FUNGHI",
-                        "prices": ["320", "500", "690"],
+                        "prices": ["320", "550", "730"],
                         "img": "FUNGHI.png"
                 }, {
                         "eng": " pelat, mocarela, šunka  ",
                         "name": "VESUVIO",
-                        "prices": ["340", "520", "710"],
+                        "prices": ["340", "570", "750"],
                         "img": "VESUVIO.png"
                 }, {
                         "eng": " pelat, mocarela, šunka, pečurke, origano, masline",
                         "name": "CAPRICCIOSA",
-                        "prices": ["360", "530", "750"],
+                        "prices": ["360", "580", "790"],
                         "img": "CAPRICCIOSA.png"
                 }, {
                         "eng": " neutralnapavlaka, mocarela, parmezan, šunka, paradajz, rukola",
                         "name": "BIANCO ROSSO",
-                        "prices": ["380", "580", "780"],
+                        "prices": ["380", "630", "830"],
                         "img": "BIANCO-ROSSO.png"
                 }, {
                         "eng": " pelat, mocarela, pančeta, parmezan",
                         "name": "SICILIA",
-                        "prices": ["380", "580", "780"],
+                        "prices": ["380", "630", "820"],
                         "img": "SICILIA.png"
                 }, {
                         "eng": " pelat, mocarela, pršuta ",
                         "name": "PALERMO",
-                        "prices": ["380", "580", "800"],
+                        "prices": ["380", "630", "850"],
                         "img": "PALERMO.png"
                 }, {
                         "eng": " pelat, mocarela, gorgonzola, pršuta, rukola, čeri-paradajz, parmezan",
                         "name": "PARIS",
-                        "prices": ["460", "670", "880"]
+                        "prices": ["460", "720", "900"]
                 }, {
                         "eng": " pelat, mocarela, pršuta, rukola, čeri-paradajz, ulje-pikante ",
                         "name": "NEW YORK",
-                        "prices": ["450", "650", "850"],
+                        "prices": ["450", "700", "880"],
                         "img": "NEW-YORK.png"
                 }, {
                         "eng": " pelat, mocarela, paprika, čeri, pečurke, rukola, crveni luk, masline",
                         "name": "VEGETARIANA",
-                        "prices": ["370", "570", "770"],
+                        "prices": ["370", "620", "800"],
                         "img": "VEGETARIANA.png"
                 }, {
                         "eng": " pelat, mocarela, kulen, paprika ",
                         "name": "KULEN",
-                        "prices": ["390", "590", "800"],
+                        "prices": ["390", "630", "850"],
                         "img": "KULEN.png"
                 }, {
                         "eng": " pelat, mocarela, tuna,crveni luk ",
                         "name": "TUNA",
-                        "prices": ["390", "590", "760"],
+                        "prices": ["390", "640", "810"],
                         "img": "TUNA.png"
                 }, {
                         "eng": " neutralna pavlaka, pršuta, rukola, paradajz, parmezan ",
                         "name": "BIANCO PROSCUITO",
-                        "prices": ["450", "650", "850"],
+                        "prices": ["450", "700", "900"],
                         "img": "BIANCO-PROSCUITO.png"
+                }, {
+                        "eng": " neutralna pavlaka, mocarela, gorgonzola, pršuta, parmezan, orasi, suve šljive",
+                        "name": "MONACO",
+                        "prices": ["500", "750", "950"],
+                        "new": true
                 }, {
                         "eng": " neutralna pavlaka, mocarela, parmezan, gorgonzola ",
                         "name": "QUATTRO FORMAGGI",
-                        "prices": ["400", "600", "810"],
+                        "prices": ["400", "650", "850"],
                         "img": "QUATTRO-FORMAGGI.png"
+                }, {
+                        "eng": " neutralna pavlaka, mocarela, parmezan, gorgonzola, orasi, rukola",
+                        "name": "FORMAGGI VERDE",
+                        "prices": ["430", "680", "880"],
+                        "new": true
                 }, {
                         "eng": " neutralna pavlaka, mocarela, parmezan, dimljena piletina,kikiriki ",
                         "name": "DI POLLO",
-                        "prices": ["380", "580", "780"],
+                        "prices": ["380", "630", "830"],
                         "img": "DI-POLLO.png"
                 }, {
                         "eng": " pelat, mocarela, parmezan, piletina, kulen, pančeta, luk, paprika ",
                         "name": "DI POLLO PICANTE",
-                        "prices": ["460", "670", "880"],
+                        "prices": ["460", "720", "930"],
                         "img": "DI-POLLO-PICANTE.png"
+                }, {
+                        "eng": " pelat, govedja pršuta, rukola, čeri paradajz",
+                        "name": "BRESAOLA",
+                        "prices": ["460", "730", "910"],
+                        "new": true
                 }, {
                         "eng": " pelat, mocarela, šunka, kulen, pančeta, crveni luk, paprika ",
                         "name": "ROYAL",
-                        "prices": ["480", "680", "880"],
+                        "prices": ["480", "730", "930"],
                         "img": "ROYAL.png"
                 }, {
                         "eng": " pelat, mocarela, dimljena piletina, pančeta, pečurke, paradajz, parmezan",
                         "name": "ROMA",
-                        "prices": ["480", "680", "880"],
+                        "prices": ["480", "730", "930"],
                         "img": "ROMA.png"
                 }, {
                         "eng": " pelat, mocarela, dimljena piletina, pesto genovese ",
                         "name": "DI POLLO PESTO",
-                        "prices": ["400", "600", "810"],
+                        "prices": ["400", "630", "830"],
                         "img": "DI-POLLO-PESTO.png"
                 }, {
                         "eng": " pelat, mocarela, pršuta, šunka, govedja pršuta, pančeta ",
                         "name": "QUATTRO CARNE",
-                        "prices": ["440", "640", "840"],
+                        "prices": ["440", "700", "910"],
                         "img": 'QUATTRO-CARNE.png'
                 }, {
                         "eng": " pelat, mocarela, parmezan, pršuta, šunka, govedja pršuta, pančeta, kulen, rukola ",
                         "name": "PIZZA HOT 7",
-                        "prices": ["530", "730", "930"]
+                        "prices": ["530", "780", "980"]
                 }, {
-                        "eng": " nutella, voće, toping ",
-                        "name": "SLATKA PIZZA",
+                        "eng": " nutella, banana, šećer u prahu",
+                        "name": "NUTELLA BANANA",
                         "prices": ["450", "650", "850"]
                 }, {
-                        "eng": " vanila krem, voće, toping ",
-                        "name": "SLATKA PIZZA",
+                        "eng": " nutella, lešnik, šećer u prahu",
+                        "name": "NUTELLA LEŠNIK",
                         "prices": ["450", "650", "850"]
                 }, {
-                        "eng": " nutella, lešnik ",
-                        "name": "NUTELA PIZZA",
+                        "eng": " vanila krem, voće, šećer u prahu",
+                        "name": "VANILLA",
                         "prices": ["450", "650", "850"]
                 }],
                 "sandwitch": [{
                         "eng": " namaz, mocarela, šunka ",
                         "name": "AL PACINO",
-                        "prices": ["200"]
+                        "prices": ["230"]
                 }, {
                         "eng": " namaz, mocarela, pršuta ",
                         "name": "PROSCIUTTO",
-                        "prices": ["240"]
+                        "prices": ["270"]
                 }, {
                         "eng": " namaz, mocarela, govedja pršuta ",
                         "name": "CRUDO",
-                        "prices": ["250"]
+                        "prices": ["290"]
                 }, {
                         "eng": " namaz, mocarela, tunjevina, crveni luk ",
                         "name": "TUNA",
-                        "prices": ["230"]
+                        "prices": ["260"]
+                }, {
+                        "eng": " namaz, mocarela, paprika, pečurke, rukola, paradajz, crveni luk, čeri",
+                        "name": "VEGETARIAN",
+                        "prices": ["260"],
+                        "new": true
+                }, {
+                        "eng": " namaz, mocarela, dimljena piletina",
+                        "name": "PILETINA",
+                        "prices": ["260"],
+                        "new": true
+                }, {
+                        "eng": " namaz, mocarela, kulen",
+                        "name": "KULEN",
+                        "prices": ["260"],
+                        "new": true
+                }, {
+                        "eng": " namaz, mocarela, pančeta",
+                        "name": "PANČETA",
+                        "prices": ["260"],
+                        "new": true
                 }, {
                         "eng": " namaz, mocarela, šunka, pršuta, govedja pršuta, pančeta ",
                         "name": "HOT",
-                        "prices": ["270"]
-                }, {
-                        "eng": " namaz, mocarela, dimljena piletina, paradajz, pečurke, pančeta ",
-                        "name": "DI POLLO",
-                        "prices": ["350"]
-                }, {
-                        "eng": " namaz, mocarela, pršuta, čeri-paradajz, rukola ",
-                        "name": "PROSCIUTO",
-                        "prices": ["380"]
-                }, {
-                        "eng": " namaz, mocarela, pelat, kulen, luk, paprika, ljute papričice ",
-                        "name": "CHILLI",
                         "prices": ["300"]
-                }, {
-                        "eng": " namaz, mocarela, pelat, govedja pršuta, čeri-paradajz, parmezan ",
-                        "name": "BRESOLA",
-                        "prices": ["360"]
-                }, {
-                        "eng": " namaz, mocarela, šunka, pančeta, paradajz ",
-                        "name": "COTTO",
-                        "prices": ["290"]
                 }]
         },
         "orders": {
@@ -1873,7 +1893,7 @@ $.each(jsonFile.menu, function (key, val) {
                                 <img src="${r.img ? `./images/products/${r.img}` : placeholder}" alt="">
                         </div>
                         <h4 class="mt-20">${r.name}</h4>
-                        <h6 class="mt-10">${r.eng}</h6>
+                        <h6 class="mt-10 capitalise">${r.eng}</h6>
                         <h5 class="mt-5">
                                 <b>${r.prices ? r.prices : ''} rsd</b>
                         </h5>
