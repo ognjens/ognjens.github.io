@@ -244,9 +244,9 @@ $.ajax({
         url: 'pizzahot.json',
         dataType: 'json',
         success: function (data) {
+                console.log('JSON file', data);
 
-
-                $.each(data.menu, function (key, val) {
+                $.each(jsonFile.menu, function (key, val) {
                         console.log(key, val);
                         if (key !== 'salads') {
                                 var data = [];
