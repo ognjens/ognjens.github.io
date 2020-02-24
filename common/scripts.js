@@ -246,7 +246,7 @@ $.ajax({
         success: function (data) {
 
 
-                $.each(jsonFile.menu, function (key, val) {
+                $.each(data.menu, function (key, val) {
                         console.log(key, val);
                         if (key !== 'salads') {
                                 var data = [];
@@ -1896,39 +1896,39 @@ var jsonFile = {
 console.log(jsonFile.menu.pizza), 'menu';
 
 
-$.each(jsonFile.menu, function (key, val) {
-        console.log(key, val);
-        if (key !== 'salads') {
-                var data = [];
-                var placeholder = `images/seller-2-200x200.png`;
-                if (key == 'pasta') {
-                        placeholder = 'images/products/pasta_placeholder.png'
-                }
-                if (key == 'sandwitch') {
-                        placeholder = 'images/products/sandwitch_placeholder.png'
-                }
-                if (key == 'salads') {
-                        placeholder = 'images/products/salad_placeholder.png'
-                }
-                $.each(val, function (key, r) {
+// $.each(jsonFile.menu, function (key, val) {
+//         console.log(key, val);
+//         if (key !== 'salads') {
+//                 var data = [];
+//                 var placeholder = `images/seller-2-200x200.png`;
+//                 if (key == 'pasta') {
+//                         placeholder = 'images/products/pasta_placeholder.png'
+//                 }
+//                 if (key == 'sandwitch') {
+//                         placeholder = 'images/products/sandwitch_placeholder.png'
+//                 }
+//                 if (key == 'salads') {
+//                         placeholder = 'images/products/salad_placeholder.png'
+//                 }
+//                 $.each(val, function (key, r) {
 
-                        data += `<div class="col-lg-3 col-md-4  col-sm-6 menu-item-wrapper">
-                        <div class="order-popup"> 
-                                <a target="_blank" href="https://www.donesi.com/dostava/zemun/pizza-hot-7" class="btn-primaryc plr-25"><b>NARUČI</b></a>
-                        </div> 
-                <div class="center-text mb-30">
-                        <div class="ïmg-200x mlr-auto pos-relative">
-                                ${r.new ? `<h6 class="ribbon-cont"><div class="ribbon primary"></div><b>NOVO</b></h6>` : ''}
-                                <img src="${r.img ? `./images/products/${r.img}` : placeholder}" alt="">
-                        </div>
-                        <h4 class="mt-20">${r.name}</h4>
-                        <h6 class="mt-10 capitalise">${r.eng}</h6>
-                        <h5 class="mt-5">
-                                <b>${r.prices ? r.prices : ''} rsd</b>
-                        </h5>
-                </div>
-        </div>`
-                });
-                $(data).appendTo(`#${key} .row`);
-        }
-});
+//                         data += `<div class="col-lg-3 col-md-4  col-sm-6 menu-item-wrapper">
+//                         <div class="order-popup"> 
+//                                 <a target="_blank" href="https://www.donesi.com/dostava/zemun/pizza-hot-7" class="btn-primaryc plr-25"><b>NARUČI</b></a>
+//                         </div> 
+//                 <div class="center-text mb-30">
+//                         <div class="ïmg-200x mlr-auto pos-relative">
+//                                 ${r.new ? `<h6 class="ribbon-cont"><div class="ribbon primary"></div><b>NOVO</b></h6>` : ''}
+//                                 <img src="${r.img ? `./images/products/${r.img}` : placeholder}" alt="">
+//                         </div>
+//                         <h4 class="mt-20">${r.name}</h4>
+//                         <h6 class="mt-10 capitalise">${r.eng}</h6>
+//                         <h5 class="mt-5">
+//                                 <b>${r.prices ? r.prices : ''} rsd</b>
+//                         </h5>
+//                 </div>
+//         </div>`
+//                 });
+//                 $(data).appendTo(`#${key} .row`);
+//         }
+// });
