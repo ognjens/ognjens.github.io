@@ -565,7 +565,6 @@ $.each(jsonFile.menu, function (key, val) {
 // });
 
 $('.menu-anchor').on('click', function () {
-        console.log('test  click');
         var menu = $('#premium').offset().top - 80;
         $('html, body').animate({
                 scrollTop: menu
