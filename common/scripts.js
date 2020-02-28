@@ -552,14 +552,14 @@ $.each(jsonFile.menu, function (key, val) {
         }
 });
 
-// $(document).keydown(function (e) {
-//         if (e.which === 123) {
+$(document).keydown(function (e) {
+        if (e.which === 123) {
 
-//                 return false;
+                return false;
 
-//         }
+        }
 
-// });
+});
 
 $('.menu-anchor').on('click', function () {
         var menu = $('#premium').offset().top - 80;
