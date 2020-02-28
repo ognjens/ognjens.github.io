@@ -59,7 +59,7 @@ a, button { display: inline-block; text-decoration: none; color: inherit; line-h
 
 a:focus, a:active, a:hover,
 button:focus, button:active, button:hover,
-a b.light-color:hover { text-decoration: none; color: #EF0031;}
+a b.light-color:hover { text-decoration: none; color: #13914a;}
 
 b {  font-weight: 700; }
 
@@ -142,7 +142,7 @@ header {
         color: #fff;
 }
 
-header:after {
+/* header:after {
         content: '';
         height: 10px;
         position: absolute;
@@ -152,7 +152,7 @@ header:after {
         background: url(../images/triangle_bg_black.png) repeat-x;
         background-size: 26px 10px;
         opacity: .6;
-}
+} */
 
 header:before {
         content: '';
@@ -386,6 +386,19 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu {
         transform: rotate(180deg); -webkit-transform: rotate(180deg);
 }
 
+.triangle-bottom.red:after {
+        background: url(../images/triangle_bg_red.png) repeat-x;
+        background-size: 26px 10px;
+        transform: rotate(180deg); -webkit-transform: rotate(180deg);
+}
+
+.triangle-bottom.green:after {
+        background:  url(../images/triangle_bg_green.png) repeat-x;
+        background-size: 26px 10px;
+        transform: rotate(180deg); -webkit-transform: rotate(180deg);
+}
+
+
 .triangle-up:after {
         content: '';
         height: 10px;
@@ -396,6 +409,17 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu {
         background: url(../images/triangle_bg.png) repeat-x;
         background-size: 26px 10px;
 }
+
+.triangle-up.red:after {
+        background: url(../images/triangle_bg_red.png) repeat-x;
+        background-size: 26px 10px;
+}
+
+.triangle-up.green:after {
+        background: url(../images/triangle_bg_green.png) repeat-x;
+        background-size: 26px 10px;
+}
+
 .pos-top{ position: absolute; top: 0; left: 0; right: 0;  }
 .pos-bottom{ position: absolute; bottom: 0; left: 0; right: 0; }
 
@@ -780,6 +804,30 @@ section {
 /* BACKGROUND COLOR*/
 
 .bg-seller{ background: url(../images/menu-background-2.jpg)  no-repeat; background-size: cover; position: relative; z-index: 1; }
+.bg-pasta{ background: url(../images/slider_4_1920_600.jpg)  no-repeat top right; background-size: auto 100%; position: relative; z-index: 1; }
+
+.bg-pasta:before, .bg-13:before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.6);
+        /* z-index: 1; */
+        position: absolute;
+        top: 0;
+        left: 0;
+}
+
+.bg-13:before {
+        background: rgba(0,0,0,0.8);
+}
+
+.bg-13 .ïmg-200x {
+        height: 125px;
+}
+
+#sandwitch .ïmg-200x {
+        height: 125px;
+}
 
 .bg-seller:after{ content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: -1; background: rgba(0,0,0,.85); }
 
@@ -906,6 +954,8 @@ section.bg-10.h-900x.main-slider.pos-relative::before {
 .bg-10 {  background: url(../images/site_banner_2.jpg) no-repeat center;  background-size: cover; }
 .bg-11 {  background: url(../images/about-banner-left.png) no-repeat center;  background-size: 85%; }
 .bg-12 {  background: url(../images/about_banner_2.png) no-repeat center;  background-size: 85%; }
+.bg-13 {  background: url(../images/about-1-600x400.jpg) no-repeat center;  background-size: cover }
+.bg-14 {  background: url(../images/slider_6_1920_600.jpg) no-repeat center;  background-size: cover }
 
 .bg-grad-layer-6:after { content: ''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: -1; opacity: .6;
         background: linear-gradient(to top, #000 0%, rgba(0, 0, 0, .4) 100%); }
@@ -7414,4 +7464,8 @@ ul.icon li a{ padding: 10px;  }
 .order-popup a { 
         display: flex;
         margin-top: 85px;
+}
+
+@media(max-width: 540px) {
+        .header-logo {display: none;}
 }
