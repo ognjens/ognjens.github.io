@@ -7469,3 +7469,16 @@ ul.icon li a{ padding: 10px;  }
 @media(max-width: 540px) {
         .header-logo {display: none;}
 }
+
+.prices {
+        color: #fff;
+}
+
+.highlight {
+        color: #1b864a;
+        margin: 0 3px;
+}
+
+.highlight:nth-of-type(2n + 2) {
+        color: #ce2e3c;
+}

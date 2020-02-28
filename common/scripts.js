@@ -518,11 +518,8 @@ var jsonFile = {
 }
 
 
-console.log(jsonFile.menu.pizza), 'menu';
-
 
 $.each(jsonFile.menu, function (key, val) {
-        console.log(key, val);
         if (key !== 'salads') {
                 var data = [];
                 var placeholder = `images/seller-2-200x200.png`;
@@ -545,8 +542,8 @@ $.each(jsonFile.menu, function (key, val) {
                         </div>
                         <h4 class="mt-20">${r.name}</h4>
                         <h6 class="mt-10 capitalise">${r.eng}</h6>
-                        <h5 class="mt-5">
-                                <b>${r.prices ? r.prices : ''} rsd</b>
+                        <h5 class="mt-5 prices">
+                                <b>${r.prices ? r.prices.toString().replace(/,/g, "<span class='highlight'> / </span>") : ''} rsd</b>
                         </h5>
                 </div>
         </div>`
