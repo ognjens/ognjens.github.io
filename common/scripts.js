@@ -293,7 +293,7 @@ var jsonFile = {
                         "eng": " pelat, pančeta, parmezan,ljute papričice, luk, maslinovo ulje ",
                         "name": "AMATRICIANA",
                         "prices": ["410"],
-                        "img": 'pasta-1-300x300.png'
+                        "img": 'AMATRICIANA-PASTA.png'
                 }, {
                         "eng": " neutralna pavlaka, mocarela, parmezan, pančeta, maslinovo ulje ",
                         "name": "CARBONARA",
@@ -303,34 +303,28 @@ var jsonFile = {
                         "eng": " neutralna pavlaka, mocarela, parmezan, gorgonzola, ementaler ",
                         "name": "QUATTRO FORMAGGI",
                         "prices": ["470"],
-                        "img": 'pasta2.png'
+                        "img": 'SIR-PASTA.png'
                 }, {
                         "eng": " neutralna pavlaka, mocarela, parmezan, gorgonzola, piletina ",
                         "name": "DI POLLO",
                         "prices": ["490"],
-                        "img": 'pasta1.png'
+                        "img": 'DIPOLLO-PASTA.png'
                 }, {
                         "eng": " neutralna pavlaka, mocarela, parmezan, gorgonzola, pršuta, pančeta ",
                         "name": "PROSCIUTO",
                         "prices": ["510"],
-                        "img": 'pasta1.png'
+                        "img": 'PRSUTA-PASTA.png'
                 }, {
                         "eng": " neutralna pavlaka, mocarela, piletina, pečurke, parmezan ",
                         "name": "DI POLLO FUNGHI",
                         "prices": ["510"],
-                        "img": 'pasta2.png'
+                        "img": 'DIPOLLOFUNGI-PASTA.png'
                 }, {
                         "eng": " pelat, mocarela,crevni luk, paprika, pečurke, čeri paradajz, rukola, parmezan",
                         "name": "VEGETARIAN",
                         "prices": ["450"],
                         "new": true,
                         "img": 'pasta-2-300x300.png'
-                }, {
-                        "eng": "nutella, lešnik",
-                        "name": "NUTELLA",
-                        "prices": ["500"],
-                        "new": true,
-                        "img": 'nutella-pasta.png'
                 }],
                 "standard": [{
                         "eng": " pelat, mocarela ",
