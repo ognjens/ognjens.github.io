@@ -387,11 +387,13 @@ var jsonFile = {
                 "sandwitch": [{
                         "eng": " namaz, mocarela, šunka ",
                         "name": "AL PACINO",
-                        "prices": ["230"]
+                        "prices": ["230"],
+                        "img": 'PRSUTA-SENDVIC.png'
                 }, {
                         "eng": " namaz, mocarela, pršuta ",
                         "name": "PROSCIUTTO",
-                        "prices": ["270"]
+                        "prices": ["270"],
+                        "img": 'PRSUTA-SENDVIC.png'
                 }, {
                         "eng": " namaz, mocarela, govedja pršuta ",
                         "name": "CRUDO",
@@ -399,17 +401,20 @@ var jsonFile = {
                 }, {
                         "eng": " namaz, mocarela, tunjevina, crveni luk ",
                         "name": "TUNA",
-                        "prices": ["260"]
+                        "prices": ["260"],
+                        "img": 'TUNA-SENDVIC.png'
                 }, {
                         "eng": " namaz, mocarela, paprika, pečurke, rukola, paradajz, crveni luk, čeri",
                         "name": "VEGETARIAN",
                         "prices": ["260"],
-                        "new": true
+                        "new": true,
+                        "img": 'VEGETARIAN-SENDVIC.png'
                 }, {
                         "eng": " namaz, mocarela, dimljena piletina",
                         "name": "PILETINA",
                         "prices": ["260"],
-                        "new": true
+                        "new": true,
+                        "img": 'DIPOLLO-SENDVIC.png'
                 }, {
                         "eng": " namaz, mocarela, kulen",
                         "name": "KULEN",
