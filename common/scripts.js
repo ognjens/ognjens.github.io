@@ -388,7 +388,7 @@ var jsonFile = {
                         "eng": " namaz, mocarela, šunka ",
                         "name": "AL PACINO",
                         "prices": ["230"],
-                        "img": 'PRSUTA-SENDVIC.png'
+                        "img": 'ALPACINO-SENDVIC.png'
                 }, {
                         "eng": " namaz, mocarela, pršuta ",
                         "name": "PROSCIUTTO",
@@ -397,7 +397,8 @@ var jsonFile = {
                 }, {
                         "eng": " namaz, mocarela, govedja pršuta ",
                         "name": "CRUDO",
-                        "prices": ["290"]
+                        "prices": ["290"],
+                        "img": 'CRUDO-SENDVIC.png'
                 }, {
                         "eng": " namaz, mocarela, tunjevina, crveni luk ",
                         "name": "TUNA",
@@ -419,16 +420,19 @@ var jsonFile = {
                         "eng": " namaz, mocarela, kulen",
                         "name": "KULEN",
                         "prices": ["260"],
-                        "new": true
+                        "new": true,
+                        "img": 'KULEN-SENDVIC.png'
                 }, {
                         "eng": " namaz, mocarela, pančeta",
                         "name": "PANČETA",
                         "prices": ["260"],
-                        "new": true
+                        "new": true,
+                        "img": 'PANCETA-SENDVIC.png'
                 }, {
                         "eng": " namaz, mocarela, šunka, pršuta, govedja pršuta, pančeta ",
                         "name": "HOT",
-                        "prices": ["300"]
+                        "prices": ["300"],
+                        "img": 'HOT-SENDVIC.png'
                 }],
                 "white": [{
                         "eng": " neutralna pavlaka, mocarela, parmezan, gorgonzola ",
