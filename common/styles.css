@@ -304,6 +304,11 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu {
         header { color: #111; }
 
         header .right-area { color: #fff; }
+        header .right-area h6 a {
+                width: 100%;
+                margin-top: 20px;
+                font-size: 20px;
+        }
 
         /* MAIN MENU */
 
