@@ -205,6 +205,9 @@ header .right-area {
         font-size: 1.2em;
 }
 
+header .right-area h6 b {
+        font-size: 18px;
+}
 /* HAMBURGER ICON */
 
 header .menu-nav-icon {
