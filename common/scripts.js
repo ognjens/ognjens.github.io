@@ -510,7 +510,7 @@ var jsonFile = {
                         "eng": "nutella",
                         "name": "NUTELLA",
                         "prices": ["180"],
-                        "img":  "nutella-placeholder.jpg"
+                        "img":  "nutella-placeholder.png"
                 }, {
                         "eng": "eurokrem",
                         "name": "EURO KREM",
