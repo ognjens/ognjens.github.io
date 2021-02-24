@@ -289,6 +289,11 @@ var jsonFile = {
                         "name": "Čili",
                         "price": 0
                 }],
+                "dodaci_palacinke": [{
+                        "id": 12,
+                        "name": "Plazma keks",
+                        "price": 30
+                }],
                 "pasta": [{
                         "eng": " pelat, pančeta, parmezan,ljute papričice, luk, maslinovo ulje ",
                         "name": "AMATRICIANA",
@@ -500,6 +505,27 @@ var jsonFile = {
                         "name": "DI POLLO PICANTE",
                         "prices": ["460", "720", "930"],
                         "img": "DI-POLLO-PICANTE.png"
+                }],
+                "palacinke": [{
+                        "eng": "nutella",
+                        "name": "NUTELLA",
+                        "prices": ["180"],
+                        "img":  "NUTELLA-PALACINKA.png"
+                }, {
+                        "eng": "eurokrem",
+                        "name": "EURO KREM",
+                        "prices": ["170"],
+                        "img":  "EUROKREM-PALACINKA.png"
+                }, {
+                        "eng": "med",
+                        "name": "MED",
+                        "prices": ["170"],
+                        "img":  "MED-PALACINKA.png"
+                }, {
+                        "eng": "dzem",
+                        "name": "DžEM",
+                        "prices": ["170"],
+                        "img":  "DZEM-PALACINKA.png"
                 }],
                 // "sweet": [{
                 //         "eng": " nutella, banana, šećer u prahu",
