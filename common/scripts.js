@@ -362,7 +362,7 @@ var jsonFile = {
                         "prices": ["370", "620", "800"],
                         "img": "VEGETARIANA.png"
                 }, {
-                        "eng": " pelat, mocarela, kulen, paprika ",
+                        "eng": " pelat, mocarela, kulen ",
                         "name": "KULEN",
                         "prices": ["390", "630", "850"],
                         "img": "KULEN.png"
