@@ -562,7 +562,7 @@ $.each(jsonFile.menu, function (key, val) {
                         placeholder = 'images/products/salad_placeholder.png'
                 }
                 $.each(val, function (key, r) {
-
+                        console.log('val', val, 'key', key, 'r', r);
                         data += `<div class="col-lg-3 col-md-4  col-sm-6 menu-item-wrapper">
                 <div class="center-text mb-30">
                         <div class="${key != 'palacinke' ? `ïmg-200x` : `img-small`} ${val} mlr-auto pos-relative">
