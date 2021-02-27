@@ -561,11 +561,11 @@ $.each(jsonFile.menu, function (key, val) {
                 if (key == 'salads') {
                         placeholder = 'images/products/salad_placeholder.png'
                 }
-                $.each(val, function (key, r) {
-                        console.log('val', val, 'key', key, 'r', r);
+                $.each(val, function (subkey, r) {
+                        console.log('key', key, 'subkey', subkey, 'r', r);
                         data += `<div class="col-lg-3 col-md-4  col-sm-6 menu-item-wrapper">
                 <div class="center-text mb-30">
-                        <div class="${key != 'palacinke' ? `ïmg-200x` : `img-small`} ${val} mlr-auto pos-relative">
+                        <div class="${subkey != 'palacinke' ? `ïmg-200x` : `img-small`} ${val} mlr-auto pos-relative">
                                 ${r.new ? `<h6 class="ribbon-cont"><div class="ribbon primary"></div><b>NOVO</b></h6>` : ''}
                                 <img src="${r.img ? `./images/products/${r.img}` : placeholder}" alt="">
                         </div>
