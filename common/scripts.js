@@ -565,7 +565,7 @@ $.each(jsonFile.menu, function (key, val) {
 
                         data += `<div class="col-lg-3 col-md-4  col-sm-6 menu-item-wrapper">
                 <div class="center-text mb-30">
-                        <div class="${key != 'palacinke' ? `ïmg-200x` : `img-small`} mlr-auto pos-relative">
+                        <div class="${key != 'palacinke' ? `ïmg-200x` : `img-small`} ${key} mlr-auto pos-relative">
                                 ${r.new ? `<h6 class="ribbon-cont"><div class="ribbon primary"></div><b>NOVO</b></h6>` : ''}
                                 <img src="${r.img ? `./images/products/${r.img}` : placeholder}" alt="">
                         </div>
