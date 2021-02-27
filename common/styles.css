@@ -55,6 +55,14 @@ h5 { font-size: 1.3em; }
 
 h6 {  font-size: .95em; letter-spacing: 1px; }
 
+.img-small {
+        max-height: 110px;
+        height: 110px;
+        max-width: 80px;
+        display: flex;
+        align-items: center;
+}
+
 a, button { display: inline-block; text-decoration: none; color: inherit; line-height: 1.3; -webkit-transition: all .25s ease-in-out; transition: all .25s ease-in-out;}
 
 a:focus, a:active, a:hover,
@@ -831,14 +839,6 @@ section {
 
 .bg-13 .ïmg-200x {
         height: 125px;
-}
-
-.img-small {
-        max-height: 110px;
-        height: 110px;
-        max-width: 80px;
-        display: flex;
-        align-items: center;
 }
 
 #sandwitch .ïmg-200x {
