@@ -507,22 +507,22 @@ var jsonFile = {
                         "img": "DI-POLLO-PICANTE.png"
                 }],
                 "palacinke": [{
-                        "eng": "nutella",
+                        "eng": "",
                         "name": "NUTELLA",
                         "prices": ["180"],
                         "img":  "nutella-placeholder.png"
                 }, {
-                        "eng": "eurokrem",
+                        "eng": "",
                         "name": "EURO KREM",
                         "prices": ["170"],
                         "img":  "EUROKREM-PALACINKA.png"
                 }, {
-                        "eng": "med",
+                        "eng": "",
                         "name": "MED",
                         "prices": ["170"],
                         "img":  "MED-PALACINKA.png"
                 }, {
-                        "eng": "dzem",
+                        "eng": "",
                         "name": "DžEM",
                         "prices": ["170"],
                         "img":  "DZEM-PALACINKA.png"
