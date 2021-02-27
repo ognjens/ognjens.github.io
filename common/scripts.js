@@ -523,7 +523,7 @@ var jsonFile = {
                         "img":  "med-placeholder.png"
                 }, {
                         "eng": "",
-                        "name": "DžEM",
+                        "name": "DzEM",
                         "prices": ["170"],
                         "img":  "dzem-placeholder.png"
                 }],
