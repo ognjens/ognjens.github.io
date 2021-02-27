@@ -515,17 +515,17 @@ var jsonFile = {
                         "eng": "",
                         "name": "EURO KREM",
                         "prices": ["170"],
-                        "img":  "EUROKREM-PALACINKA.png"
+                        "img":  "eurokrem-placeholder.png"
                 }, {
                         "eng": "",
                         "name": "MED",
                         "prices": ["170"],
-                        "img":  "MED-PALACINKA.png"
+                        "img":  "med-placeholder.png"
                 }, {
                         "eng": "",
                         "name": "DžEM",
                         "prices": ["170"],
-                        "img":  "DZEM-PALACINKA.png"
+                        "img":  "dzem-placeholder.png"
                 }],
                 // "sweet": [{
                 //         "eng": " nutella, banana, šećer u prahu",
