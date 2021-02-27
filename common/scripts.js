@@ -515,7 +515,7 @@ var jsonFile = {
                         "eng": "",
                         "name": "EURO KREM",
                         "prices": ["170"],
-                        "img":  "eurokrem-placeholder.png"
+                        "img":  "krem-placeholder.png"
                 }, {
                         "eng": "",
                         "name": "MED",
