@@ -913,7 +913,7 @@ section {
 /*RIBBONS*/
 
 .ribbon-cont{  display: inline-block; padding: 0px 30px 0px 20px; position: absolute; top: 35%; left: 4px; z-index: 1; line-height: 30px;  font-size: 1.07em; }
-
+.ribbon-posno{  display: inline-block; padding: 0px 30px 0px 20px; position: absolute; top: 35%; left: 4px; z-index: 1; line-height: 30px;  font-size: 1.07em; }
 .ribbon { position: absolute;top: 0;left: 0;right: 0;bottom: 0; z-index: -1; border: 15px solid #F1002A; border-left:  0; border-right: 15px solid transparent;  width:   100%; }
 .ribbon.primary{ border-color: #F1002A; border-right-color:  transparent; }
 .ribbon.secondary{ border-color: #1F8330; border-right-color:  transparent;  }
