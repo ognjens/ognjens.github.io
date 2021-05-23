@@ -443,6 +443,7 @@ var jsonFile = {
                         "eng": " neutralna pavlaka, mocarela, gorgonzola, pršuta, parmezan, orasi, suve šljive",
                         "name": "MONACO",
                         "prices": ["600", "850", "1050"],
+                        "img": "MONACO.png"
                 }, {
                         "eng": " neutralna pavlaka, mocarela, gorgonzola, dimljena piletina, parmezan",
                         "name": "ANCONA",
