@@ -475,7 +475,7 @@ var jsonFile = {
                         "eng": " pelat, mocarela, gorgonzola, pršuta, rukola, čeri-paradajz, parmezan",
                         "name": "PARIS",
                         "prices": ["570", "820", "1020"],
-                        "img": "seller-6-200x200.png"
+                        "img": "PARIS.png"
                 }, {
                         "eng": " pelat, govedja pršuta, rukola, čeri paradajz",
                         "name": "BRESAOLA",
